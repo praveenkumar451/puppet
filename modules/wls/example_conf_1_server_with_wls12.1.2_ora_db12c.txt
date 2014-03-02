@@ -133,6 +133,8 @@ class db12c2 {
             group        => 'dba',
             action       => 'start',  
             require      => Oradb::Net['config net8'],
+            
+            # Sample Output Updated. This is test Message
    }
 
    oradb::database{ 'testDb': 
